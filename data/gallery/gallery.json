@@ -1,0 +1,30 @@
+[
+  {
+    "src": "data/gallery/gallery-01.jpg",
+    "alt": "StudioA gallery image 1"
+  },
+  {
+    "src": "data/gallery/gallery-02.jpg",
+    "alt": "StudioA gallery image 2"
+  },
+  {
+    "src": "data/gallery/gallery-03.jpg",
+    "alt": "StudioA gallery image 3"
+  },
+  {
+    "src": "data/gallery/gallery-04.jpg",
+    "alt": "StudioA gallery image 4"
+  },
+  {
+    "src": "data/gallery/gallery-05.webp",
+    "alt": "StudioA gallery image 5"
+  },
+  {
+    "src": "data/gallery/gallery-06.jpg",
+    "alt": "StudioA gallery image 6"
+  },
+  {
+    "src": "data/gallery/gallery-07.jpg",
+    "alt": "StudioA gallery image 7"
+  }
+]

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="We in studio A help people to choose fitness need for them and help them achieve their goals." />
+    <title>StudioA | StudioA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="index">
+    
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="StudioA home"><img src="assets/logo.jpg" alt="StudioA logo" /><strong>StudioA</strong></a>
+        <div class="desktop-nav"><a href="#top" class="active">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+        </button>
+      </nav>
+      <div class="mobile-nav" id="mobile-menu" hidden><a href="#top" class="active">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div>
+      <div class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Welcome to StudioA</p>
+          <h1>A fitness studio for you</h1>
+          <p class="hero-description">We in studio A help people to choose fitness need for them and help them achieve their goals.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#contact">Get a quote <span aria-hidden="true">→</span></a>
+            <a class="secondary-link" href="#about">Learn more <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-art"><div class="hero-image-wrap"><img src="assets/logo.jpg" alt="StudioA logo" /></div></div>
+      </div>
+    </header>
+    
+    <aside class="social-strip" aria-label="Company links">
+      <div class="social-strip-track"><a class="social-icon-link" href="https://www.instagram.com/titleboxingclubredmond/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg><span class="sr-only">Instagram</span></a><a class="social-icon-link" href="https://www.linkedin.com/in/logeshgopal/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="4" height="12"></rect><circle cx="5" cy="5" r="2"></circle><path d="M11 9h4v1.8c1-1.4 2.3-2.2 4.2-2.2 3 0 4.8 2 4.8 5.8V21h-4v-6c0-1.8-.6-3-2.3-3-1.8 0-2.7 1.2-2.7 3.4V21h-4V9Z"></path></svg><span class="sr-only">LinkedIn</span></a>
+        <div class="contact-action">
+          <button class="social-icon-link" type="button" data-contact-action="call" data-contact-value="2069471885" data-contact-href="tel:2069471885" aria-expanded="false" aria-controls="call-details" aria-label="Call us" title="Call us">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.7 3.5 9.5 8l-2 2c1.2 2.8 3.7 5.3 6.5 6.5l2-2 4.5 2.8c.4.2.6.7.5 1.1L20.4 22c-.1.6-.7 1-1.3 1C9.1 22.4 1.6 14.9 1 4.9c0-.6.4-1.2 1-1.3L5.6 3c.4-.1.9.1 1.1.5Z"></path></svg><span class="sr-only">Call us</span>
+          </button>
+          <div class="contact-action-details" id="call-details" hidden>
+            <a href="tel:2069471885">2069471885</a>
+            <button type="button" data-copy-value="2069471885">Copy</button>
+          </div>
+        </div>
+        <div class="contact-action">
+          <button class="social-icon-link" type="button" data-contact-action="email" aria-expanded="false" aria-controls="email-details" aria-label="Email us" title="Email us">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m3 6 9 7 9-7"></path></svg><span class="sr-only">Email us</span>
+          </button>
+          <div class="contact-action-details" id="email-details" hidden>
+            <a href="mailto:logeshgopal0712@gmail.com">logeshgopal0712@gmail.com</a>
+            <button type="button" data-copy-value="logeshgopal0712@gmail.com">Copy</button>
+          </div>
+        </div></div>
+    </aside>
+    <main class="home-main" id="home-sections" data-pages="about.html,services.html,gallery.html,reviews.html,contact.html">
+      <div class="data-status" id="home-sections-status">Loading website sections…</div>
+    </main>
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><img src="assets/logo.jpg" alt="StudioA logo" /><strong>StudioA</strong></a>
+      <small>© <span id="copyright-years" data-start-year="2025"></span> StudioA. All rights reserved.</small>
+    </footer>
+  </body>
+</html>
